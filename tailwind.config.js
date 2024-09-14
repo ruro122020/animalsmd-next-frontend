@@ -1,17 +1,32 @@
+import flowbite from "flowbite-react/tailwind";
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    flowbite.content(),
   ],
   theme: {
     extend: {
+      // fontFamily: {
+      //   display: 'Poetsen One, sans-serif'
+      // },
+      // backgroundColor: {
+      //   "dark-grey-1": '#1F2937'
+      // },
+      // colors: {
+      //   'light-grey': '#9CA3AF'
+      // }
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    flowbite.plugin(),
+  ],
 };
