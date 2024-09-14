@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AnimalsMD
 
-## Getting Started
+AnimalsMD is a resource for pet owners seeking to understand and address their pet's health concerns. The website offers a comprehensive pet assessment tool that provides a preliminary diagnosis based on the symptoms described.
 
-First, run the development server:
+Key Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Pet Assessment Tool: Users can input their pet's symptoms into the assessment tool, which then generates a diagnosis with potential illnesses, non-invasive remedies, treatments, and medications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Prescription Medication: With veterinary approval, users can conveniently purchase prescription medications directly through the website.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Health Records: AnimalsMD allows users to keep a detailed record of all assessments, making it easy to track the health history of both current and previous pets.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+AnimalsMD empowers pet owners with the information and tools they need to manage their pet's health, ensuring their furry friends receive the best possible care.
 
-## Learn More
+FRONTEND: React, React-Router-DOM, HTML5/CSS3, Material UI, Formik, Yup
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+BACKEND: Python, Flask, SQLAlchemy, PostgreSQL
